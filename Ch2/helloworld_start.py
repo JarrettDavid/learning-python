@@ -8,7 +8,7 @@
 # to read information typed in by the
 # user. It also uses the print command
 # which prints information out to the 
-# terminal
+# terminal 
 #
 def main():
     name = input("What is your name? ");

@@ -34,9 +34,7 @@ def multi_add(*args):
 func1()
 print(func1())
 print(func1)
-
 func2("autobot", "deceptacon")
-
 print(cube(7))
 print(power(2))
 print(power(2,3))

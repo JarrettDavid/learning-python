@@ -24,12 +24,15 @@ def main():
   for x in range(5,10):
       if(x==7): break
       print(x)
+
    #continue will skip over whatever satisfies the condition staement
    #in this case 6 and 8 are skipped while 5, 7 and 9 are printed
   for x in range(5,10):
       if(x % 2 == 0): continue
       print(x)
-  #using the enumerate() function to get index 
+
+  #using the enumerate() function to get index. Added condition statements
+  # to only print out certain days of the week when condtions are met
   days=["Mon","Tues","Wed","Thur","Fri","Sat","Sun"]
   for i,d in enumerate(days):
       #if(i % 2 == 0): continue

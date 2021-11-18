@@ -22,6 +22,7 @@ def someFunction():
     print(f)
     return f
 
+#added statement to concatonate strings together
 f = f + someFunction()
 print(f)
 
